@@ -1,4 +1,4 @@
-package net.codejava;
+package net.codejava.pojo;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -39,7 +39,7 @@ public class User {
 			joinColumns = @JoinColumn(name = "user_id"),
 			inverseJoinColumns = @JoinColumn(name = "role_id")
 			)
-	private Set<Role> roles = new HashSet<>(); 
+	private Set<Role> roles = new HashSet<>();
 
 	public Long getId() {
 		return id;

@@ -1,5 +1,8 @@
-package net.codejava;
+package net.codejava.service;
 
+import net.codejava.pojo.Provider;
+import net.codejava.pojo.User;
+import net.codejava.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

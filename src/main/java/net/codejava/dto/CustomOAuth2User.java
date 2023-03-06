@@ -1,4 +1,4 @@
-package net.codejava;
+package net.codejava.dto;
 
 import java.util.Collection;
 import java.util.Map;

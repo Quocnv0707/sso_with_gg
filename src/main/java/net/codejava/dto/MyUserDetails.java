@@ -1,10 +1,12 @@
-package net.codejava;
+package net.codejava.dto;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 
+import net.codejava.pojo.Role;
+import net.codejava.pojo.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

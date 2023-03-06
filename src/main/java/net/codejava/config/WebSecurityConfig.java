@@ -1,4 +1,4 @@
-package net.codejava;
+package net.codejava.config;
 
 import java.io.IOException;
 
@@ -6,6 +6,10 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import net.codejava.dto.CustomOAuth2User;
+import net.codejava.service.CustomOAuth2UserService;
+import net.codejava.service.UserDetailsServiceImpl;
+import net.codejava.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

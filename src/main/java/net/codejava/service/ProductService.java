@@ -1,7 +1,9 @@
-package net.codejava;
+package net.codejava.service;
 
 import java.util.List;
 
+import net.codejava.pojo.Product;
+import net.codejava.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,7 +12,7 @@ public class ProductService {
 	@Autowired
 	private ProductRepository repo;
 	
-	public List<Product> listAll() {		
+	public List<Product> listAll() {
 		return repo.findAll();
 	}
 	

@@ -1,7 +1,9 @@
-package net.codejava;
+package net.codejava.controller;
 
 import java.util.List;
 
+import net.codejava.pojo.Product;
+import net.codejava.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,6 +1,6 @@
 spring:
   datasource:
-    password: password
+    password: q01689032365
     url: jdbc:mysql://localhost:3306/sales
     username: root
   jpa:
@@ -12,8 +12,8 @@ spring:
       client:
         registration:
          google:
-          clientId: YOUR_GOOGLE_CLIENT_ID
-          clientSecret: YOUR_GOOGLE_CLIENT_SECRET
+          clientId: 934062765905-fhdgt5sud53m74mlculu0938571psqit.apps.googleusercontent.com
+          clientSecret: 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
           scope:
            - email
            - profile
